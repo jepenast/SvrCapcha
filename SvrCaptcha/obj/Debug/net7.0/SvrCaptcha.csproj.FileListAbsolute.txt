@@ -1,0 +1,7 @@
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.csproj.AssemblyReference.cache
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.AssemblyInfoInputs.cache
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.AssemblyInfo.cs
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.csproj.CoreCompileInputs.cache
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.MvcApplicationPartsAssemblyInfo.cs
+D:\Proyectos\Propios\Sovys_Captcha\SvrCaptcha\obj\Debug\net7.0\SvrCaptcha.MvcApplicationPartsAssemblyInfo.cache

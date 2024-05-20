@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="5FA01F68-1793-9ACE-31D6-63B065FC9898" name="vwLockApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:36:05 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>view_8</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT 
+  LA.KeyApp,
+  KA.NameApp,
+  LA.StartDim,
+  LA.EndDim,
+  KA.URLAPP,
+  TV.TypeName
+FROM tbLockApp LA WITH(NOLOCK)
+JOIN tbKeyApp KA WITH(NOLOCK) ON KA.[Key] = LA.KeyApp
+JOIN tbTypeValue TV WITH(NOLOCK) ON TV.idType = KA.TypeApp]]></userDefinedSQL>
+<parsed>true</parsed>
+<syntaxProvider>MSSQL</syntaxProvider>
+<usedContainers>
+<container alias="KA" containerID="AE6A95C5-07D2-8A2D-7F65-8D027266A217"/>
+<container alias="LA" containerID="6BA29FE3-E8B7-7327-5B0C-2EDA18C4CE96"/>
+<container alias="TV" containerID="2B180535-E10D-4E36-0493-4CB80BE55488"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="KeyApp" id="27CCD103-DB3E-52CA-1D35-5985B52223FE">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:37:40 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNIQUEIDENTIFIER</dataType>
+<reference>false</reference>
+<referencedColumn>029A3CFA-B1EF-683C-3A3E-8DB28B4314EA</referencedColumn>
+<table>6BA29FE3-E8B7-7327-5B0C-2EDA18C4CE96</table>
+<tableAlias>LA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NameApp" id="4C58E3F1-FEF7-5BDB-2C2C-14DE5F10422A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:38:58 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NVARCHAR (50)</dataType>
+<reference>false</reference>
+<referencedColumn>FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8</referencedColumn>
+<table>AE6A95C5-07D2-8A2D-7F65-8D027266A217</table>
+<tableAlias>KA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="StartDim" id="A6E0CE8F-5855-EAA4-D1AB-B2A1C3EA5743">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:37:40 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATETIME</dataType>
+<reference>false</reference>
+<referencedColumn>E08DEE43-AEBC-F207-ABC2-E8B095441FE3</referencedColumn>
+<table>6BA29FE3-E8B7-7327-5B0C-2EDA18C4CE96</table>
+<tableAlias>LA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EndDim" id="50311054-ED37-4A78-682B-D127A64213DC">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:37:40 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATETIME</dataType>
+<reference>false</reference>
+<referencedColumn>B65040F0-3A26-9928-E34E-59D3DD25E664</referencedColumn>
+<table>6BA29FE3-E8B7-7327-5B0C-2EDA18C4CE96</table>
+<tableAlias>LA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="URLAPP" id="6A8C291D-4739-C23E-FE56-4F355FB18C46">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:37:40 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NVARCHAR (255)</dataType>
+<reference>false</reference>
+<referencedColumn>B355B6A0-A8FE-18BA-E308-9EB4F5BD5E7A</referencedColumn>
+<table>AE6A95C5-07D2-8A2D-7F65-8D027266A217</table>
+<tableAlias>KA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TypeName" id="43F7DDD1-D5EF-D9B4-B63E-6CA7E66B373D">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:38:58 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NVARCHAR (50)</dataType>
+<reference>false</reference>
+<referencedColumn>25BC4A72-C7B1-89E8-F273-91ED5F81E771</referencedColumn>
+<table>2B180535-E10D-4E36-0493-4CB80BE55488</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6BA29FE3-E8B7-7327-5B0C-2EDA18C4CE96">
+<container>true</container>
+<tableName>tbLockApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AE6A95C5-07D2-8A2D-7F65-8D027266A217">
+<container>true</container>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2B180535-E10D-4E36-0493-4CB80BE55488">
+<container>true</container>
+<tableName>tbTypeValue</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="029A3CFA-B1EF-683C-3A3E-8DB28B4314EA">
+<columnName>KeyApp</columnName>
+<tableName>tbLockApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8">
+<columnName>NameApp</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E08DEE43-AEBC-F207-ABC2-E8B095441FE3">
+<columnName>StartDim</columnName>
+<tableName>tbLockApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B65040F0-3A26-9928-E34E-59D3DD25E664">
+<columnName>EndDim</columnName>
+<tableName>tbLockApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B355B6A0-A8FE-18BA-E308-9EB4F5BD5E7A">
+<columnName>URLAPP</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="25BC4A72-C7B1-89E8-F273-91ED5F81E771">
+<columnName>TypeName</columnName>
+<tableName>tbTypeValue</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D1621734-71A9-8811-E27B-B57B5C7F75E8">
+<columnName>Key</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8DB35BCC-17B6-A452-E7AE-34F2AE8CEF32">
+<columnName>idType</columnName>
+<tableName>tbTypeValue</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EACCAF31-0FE8-91CC-0673-91FF38F1E6F3">
+<columnName>TypeApp</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

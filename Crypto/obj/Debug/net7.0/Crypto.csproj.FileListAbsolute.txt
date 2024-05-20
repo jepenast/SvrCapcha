@@ -1,0 +1,11 @@
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\Crypto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\Crypto.AssemblyInfoInputs.cache
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\Crypto.AssemblyInfo.cs
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\Crypto.csproj.CoreCompileInputs.cache
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\bin\Debug\net7.0\Crypto.deps.json
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\bin\Debug\net7.0\Crypto.dll
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\bin\Debug\net7.0\Crypto.pdb
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\Crypto.dll
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\refint\Crypto.dll
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\Crypto.pdb
+D:\Proyectos\Propios\Sovys_Captcha\Crypto\obj\Debug\net7.0\ref\Crypto.dll

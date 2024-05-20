@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\Propios\\Sovys_Captcha\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B7537-04FE-40C6-9E20-432BA4650DCC}|DALUtils\\DALUtils.csproj|d:\\proyectos\\propios\\sovys_captcha\\dalutils\\data\\context\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B7537-04FE-40C6-9E20-432BA4650DCC}|DALUtils\\DALUtils.csproj|solutionrelative:dalutils\\data\\context\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B7537-04FE-40C6-9E20-432BA4650DCC}|DALUtils\\DALUtils.csproj|d:\\proyectos\\propios\\sovys_captcha\\dalutils\\data\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B7537-04FE-40C6-9E20-432BA4650DCC}|DALUtils\\DALUtils.csproj|solutionrelative:dalutils\\data\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C3B42E-D0E9-4826-9EAE-40915BC598D3}|Crypto\\Crypto.csproj|d:\\proyectos\\propios\\sovys_captcha\\crypto\\sha256.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C3B42E-D0E9-4826-9EAE-40915BC598D3}|Crypto\\Crypto.csproj|solutionrelative:crypto\\sha256.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\coreutils\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\coreutils\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\coreutils\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\coreutils\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B7537-04FE-40C6-9E20-432BA4650DCC}|DALUtils\\DALUtils.csproj|d:\\proyectos\\propios\\sovys_captcha\\dalutils\\data\\context\\captcha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B7537-04FE-40C6-9E20-432BA4650DCC}|DALUtils\\DALUtils.csproj|solutionrelative:dalutils\\data\\context\\captcha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\service\\keyappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\service\\keyappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\coreutils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\coreutils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|d:\\proyectos\\propios\\sovys_captcha\\svrcaptcha\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B665A-AB71-4B6F-B5D3-4F686DA4B826}|SvrCaptcha\\SvrCaptcha.csproj|solutionrelative:svrcaptcha\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalSuppressions.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\GlobalSuppressions.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\GlobalSuppressions.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\GlobalSuppressions.cs",
+              "RelativeToolTip": "SvrCaptcha\\GlobalSuppressions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:56:59.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\Models\\Answer.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\Models\\Answer.cs",
+              "RelativeToolTip": "SvrCaptcha\\Models\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:56:11.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\DALUtils\\Data\\Connection.cs",
+              "RelativeDocumentMoniker": "DALUtils\\Data\\Connection.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\DALUtils\\Data\\Connection.cs",
+              "RelativeToolTip": "DALUtils\\Data\\Connection.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:55:55.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sha256.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\Crypto\\Sha256.cs",
+              "RelativeDocumentMoniker": "Crypto\\Sha256.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\Crypto\\Sha256.cs",
+              "RelativeToolTip": "Crypto\\Sha256.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAjwBUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:55:11.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Data.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\CoreUtils\\Data.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\CoreUtils\\Data.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\CoreUtils\\Data.cs",
+              "RelativeToolTip": "SvrCaptcha\\CoreUtils\\Data.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:54:46.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Captcha.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\DALUtils\\Data\\Context\\Captcha.cs",
+              "RelativeDocumentMoniker": "DALUtils\\Data\\Context\\Captcha.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\DALUtils\\Data\\Context\\Captcha.cs",
+              "RelativeToolTip": "DALUtils\\Data\\Context\\Captcha.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:54:13.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KeyAppService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\Service\\KeyAppService.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\Service\\KeyAppService.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\Service\\KeyAppService.cs",
+              "RelativeToolTip": "SvrCaptcha\\Service\\KeyAppService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAjwBgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:53:41.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\DALUtils\\Data\\Context\\Application.cs",
+              "RelativeDocumentMoniker": "DALUtils\\Data\\Context\\Application.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\DALUtils\\Data\\Context\\Application.cs",
+              "RelativeToolTip": "DALUtils\\Data\\Context\\Application.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAMwBoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:53:04.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\CoreUtils\\Utils.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\CoreUtils\\Utils.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\CoreUtils\\Utils.cs",
+              "RelativeToolTip": "SvrCaptcha\\CoreUtils\\Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:51:08.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\Service\\TokenService.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\Service\\TokenService.cs",
+              "RelativeToolTip": "SvrCaptcha\\Service\\TokenService.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAjwEYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:50:27.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cache.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\CoreUtils\\Cache.cs",
+              "RelativeDocumentMoniker": "SvrCaptcha\\CoreUtils\\Cache.cs",
+              "ToolTip": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\CoreUtils\\Cache.cs",
+              "RelativeToolTip": "SvrCaptcha\\CoreUtils\\Cache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:50:01.571Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

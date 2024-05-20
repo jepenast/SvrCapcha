@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="tbErrorLog" directorySegmentName="seg_0" id="F32CAA95-2352-137C-F6DA-78EC0381FB11">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:41:47 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="DateLog" id="11C4B5E3-9C20-FFE8-710F-343EDD0660D2">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ErrState" id="4CC6054D-7455-4CFC-CA12-1D7694FDFBC2">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:46:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ErrSeverity" id="79241B87-3E75-C6FA-E737-D784A049CB3D">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:46:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ErrMessage" id="9B04476E-70B1-C354-C41D-FF4CE5A0A643">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Proccess" id="B0E707C0-5C7E-7DC8-626F-CBBC1BAC0415">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdLogError" id="DCA8F72F-C279-AF32-0F66-7C840BF8C91C">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ErrNumber" id="DE429913-AB1A-2C5B-33BD-6AE83570C241">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ErrLine" id="E0001E64-BB8B-81BD-F990-9456C64E54ED">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:46:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.IndexProxySqlServerv2k12" name="idx_ErrorLog" id="AFEFB620-22C7-7598-E7E0-908FA68E64B6">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:48:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<recomputeStatistics>ON</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="PK_ErrorLog" id="22E876C5-14D8-34C2-1CB4-F362394327EA">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:48:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59F0BE1C-B1E7-5123-097A-41DB9DF64F84" containerWithKeyObject="35F5539C-8996-FC84-0E05-51E58344A474" localFKIndex="AE2065E6-7F13-CEB5-5C72-7A6F8E24CE39" name="FK_TimeLife_KeyApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:55 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<referredTableLongName>tbKeyApp</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE6A95C5-07D2-8A2D-7F65-8D027266A217</referredTableID>
+<keyObject>9C5AA774-DDE9-0F7C-7CA2-067A40A5DB89</keyObject>
+<referredKeyID>9C5AA774-DDE9-0F7C-7CA2-067A40A5DB89</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Key</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

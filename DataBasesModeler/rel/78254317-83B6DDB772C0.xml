@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SvrCapcha" id="78254317-6E15-3E33-776C-83B6DDB772C0" mainViewID="C72C7DE1-D085-FF25-1014-AB1493C28D93">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:10:27 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

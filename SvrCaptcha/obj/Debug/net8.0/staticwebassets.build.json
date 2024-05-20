@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "AVeOIdQoVa5kkq2nKikNKoSXp8C8p1paGhwOE0K/Ypc=",
+  "Source": "SvrCaptcha",
+  "BasePath": "_content/SvrCaptcha",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SvrCaptcha\\wwwroot",
+      "Source": "SvrCaptcha",
+      "ContentRoot": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\",
+      "BasePath": "_content/SvrCaptcha",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\Documentation.html",
+      "SourceId": "SvrCaptcha",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\",
+      "BasePath": "_content/SvrCaptcha",
+      "RelativePath": "Documentation.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Documentation.html"
+    },
+    {
+      "Identity": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\SvrCaptcha.js",
+      "SourceId": "SvrCaptcha",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\",
+      "BasePath": "_content/SvrCaptcha",
+      "RelativePath": "SvrCaptcha.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SvrCaptcha.js"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableViewProxySqlServerv2k5" name="vwAttemps" directorySegmentName="seg_0" id="2F69621E-72A5-A296-64AB-052251BB3792">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:23:01 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<dataBase>DB_NULLELEMENT</dataBase>
+</TableViewProxySqlServerv2k5>

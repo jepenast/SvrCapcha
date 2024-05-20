@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71628114-2D42-7637-E117-6A1FB4D8FA6C" name="tbCacheApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 14:59:17 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdReg" id="1CAD66EB-92DF-7846-74CB-1E058E31AF59">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:03 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KeyApp" id="E33450DD-4375-2DA9-41B9-752D2B685A50">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:00:57 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Value" id="D2AF636B-0DD7-E566-603C-8CDF6E6C03E3">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:00:57 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TimeStamp" id="B5683F74-C299-41FA-C37C-A120C8C18585">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:00:57 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TimeLife" id="35625F23-EBD6-2FD5-04B4-B39ED6030ACC">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:03 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE00F926-D184-B97A-92EC-E20E715ACB00" name="PK_CacheApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:03 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CAD66EB-92DF-7846-74CB-1E058E31AF59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

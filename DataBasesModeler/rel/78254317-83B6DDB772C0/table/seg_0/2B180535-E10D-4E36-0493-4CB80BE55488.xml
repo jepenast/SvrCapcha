@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B180535-E10D-4E36-0493-4CB80BE55488" name="tbTypeValue">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:28:12 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<beforeDrop><![CDATA[INSERT INTO tbTypeValue (TypeName) VALUES
+('Application Web'),
+('Service API'),
+('Service OS')]]></beforeDrop>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idType" id="8DB35BCC-17B6-A452-E7AE-34F2AE8CEF32">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:53 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TypeName" id="25BC4A72-C7B1-89E8-F273-91ED5F81E771">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:53 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C13A9CD-27EE-B938-A04E-048028A2AC08" name="PK_TypeValue">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:53 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB35BCC-17B6-A452-E7AE-34F2AE8CEF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADB1D305-9503-E910-304B-3EBF4B61BB55" name="UN_TypeValue">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:53 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25BC4A72-C7B1-89E8-F273-91ED5F81E771"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

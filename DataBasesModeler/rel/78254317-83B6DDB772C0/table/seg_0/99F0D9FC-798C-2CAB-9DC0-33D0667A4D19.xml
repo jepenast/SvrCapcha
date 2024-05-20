@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F0D9FC-798C-2CAB-9DC0-33D0667A4D19" name="tbLogEvent">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:48:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdLogEvent" id="BCDE68CD-0986-6809-0722-C1F5613FC6BB">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:53:17 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event" id="748E9D93-1207-F89F-7755-39F0A312337B">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:53:17 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateLog" id="17D7EA6A-6677-AA62-BEBA-B67B045B406B">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:53:17 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="7043F9A8-D89B-CCE7-B368-9716FCE74092">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:53:17 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8F005CC-67BC-5213-4B7A-EE2D48D7B223" name="PK_LogEvent">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:53:17 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCDE68CD-0986-6809-0722-C1F5613FC6BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7562C5AD-5A0B-7B86-8C80-ED92A09A450A" name="idx_LogEvent">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:54:50 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D7EA6A-6677-AA62-BEBA-B67B045B406B" sortOrder="DESC"/>
+<colUsage columnID="748E9D93-1207-F89F-7755-39F0A312337B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

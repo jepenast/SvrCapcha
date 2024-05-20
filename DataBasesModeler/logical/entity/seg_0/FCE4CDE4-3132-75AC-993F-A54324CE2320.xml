@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCE4CDE4-3132-75AC-993F-A54324CE2320" name="tbCacheCaptcha">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:54 UTC</createdTime>
+<generatorID>5E5578F0-E3E0-C4F5-140E-21EB6CBCF7E1</generatorID>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<engineerTo>
+<item key="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="4A9EDAD3-A1E7-C66C-79C2-8A754B285B1F">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:54 UTC</createdTime>
+<generatorID>CFA087A2-810A-C738-CB76-A66DDD42EDF9</generatorID>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<engineerTo>
+<item key="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Image" id="E80D1DEA-2B94-E681-FBE1-758FAEC68AE6">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:54 UTC</createdTime>
+<generatorID>B03AEFF9-632D-C2C4-4F05-62F386A055F2</generatorID>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<engineerTo>
+<item key="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypeSize>MAX CHAR</dataTypeSize>
+<ownDataTypeParameters>MAX CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KeyApp" id="296E89BF-5990-D57F-7C48-58A4705EFCA8">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:54 UTC</createdTime>
+<generatorID>32D35E20-4BBD-1BEA-DD57-365B5FA6C23F</generatorID>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<engineerTo>
+<item key="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TimeStamp" id="4E223B36-9C8D-04F5-19D4-775466E1F4A5">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:54 UTC</createdTime>
+<generatorID>6D903CA5-4D41-3341-129D-2D8B00B5E6D4</generatorID>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<engineerTo>
+<item key="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2CDF107-15BF-E4FD-5F47-8C3555527F4A" name="PK CacheCaptcha">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:02:54 UTC</createdTime>
+<generatorID>C3DFDDAD-9290-2370-8402-1F44F658158B</generatorID>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<engineerTo>
+<item key="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A9EDAD3-A1E7-C66C-79C2-8A754B285B1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

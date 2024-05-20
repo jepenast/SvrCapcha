@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="C956F287-E2BA-D6B6-7DAA-49E590D0A888" name="vwKeyAppTime">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:16:07 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT 
+  KA.[Key],
+  KA.NameApp,
+  TL.TimeStampInit,
+  TL.TimeStampEnd,
+  TL.LockoutTime,
+  TL.Active
+FROM tbKeyApp KA WITH(NOLOCK)
+JOIN tbTimeLife TL WITH(NOLOCK) ON KA.[Key] = TL.KEYAPP]]></userDefinedSQL>
+<parsed>true</parsed>
+<syntaxProvider>MSSQL</syntaxProvider>
+<usedContainers>
+<container alias="TL" containerID="35F5539C-8996-FC84-0E05-51E58344A474"/>
+<container alias="KA" containerID="AE6A95C5-07D2-8A2D-7F65-8D027266A217"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Key" id="3FE97E81-4798-C623-6056-0755B701EF1A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:17:39 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNIQUEIDENTIFIER</dataType>
+<reference>false</reference>
+<referencedColumn>D1621734-71A9-8811-E27B-B57B5C7F75E8</referencedColumn>
+<table>AE6A95C5-07D2-8A2D-7F65-8D027266A217</table>
+<tableAlias>KA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NameApp" id="2BB0D91B-E63E-46BD-B5FF-BE888ED5C291">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:17:39 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NVARCHAR (50)</dataType>
+<reference>false</reference>
+<referencedColumn>FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8</referencedColumn>
+<table>AE6A95C5-07D2-8A2D-7F65-8D027266A217</table>
+<tableAlias>KA</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TimeStampInit" id="FB6B13F0-8674-CA08-ADBB-F36C617E39D5">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:17:39 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATETIME</dataType>
+<reference>false</reference>
+<referencedColumn>59AD6E1C-9526-A560-0271-E7207E5CE1A9</referencedColumn>
+<table>35F5539C-8996-FC84-0E05-51E58344A474</table>
+<tableAlias>TL</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TimeStampEnd" id="B473E3B7-46CE-5C83-A09F-59C82B707799">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:17:39 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATETIME</dataType>
+<reference>false</reference>
+<referencedColumn>3FD2132B-9D3E-882E-9385-EA16BD2DC070</referencedColumn>
+<table>35F5539C-8996-FC84-0E05-51E58344A474</table>
+<tableAlias>TL</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LockoutTime" id="4774241F-3FE2-CDE4-16B8-9E0580F97885">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:17:39 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>1E888B83-29BF-80DB-A795-59DA57272473</referencedColumn>
+<table>35F5539C-8996-FC84-0E05-51E58344A474</table>
+<tableAlias>TL</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Active" id="43678A04-5F24-8456-FA28-730CF80D3214">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:17:39 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>BIT</dataType>
+<reference>false</reference>
+<referencedColumn>8D264F66-BD59-DC1C-6858-7F3F210EDE9A</referencedColumn>
+<table>35F5539C-8996-FC84-0E05-51E58344A474</table>
+<tableAlias>TL</tableAlias>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AE6A95C5-07D2-8A2D-7F65-8D027266A217">
+<container>true</container>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="35F5539C-8996-FC84-0E05-51E58344A474">
+<container>true</container>
+<tableName>tbTimeLife</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D1621734-71A9-8811-E27B-B57B5C7F75E8">
+<columnName>Key</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8">
+<columnName>NameApp</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="59AD6E1C-9526-A560-0271-E7207E5CE1A9">
+<columnName>TimeStampInit</columnName>
+<tableName>tbTimeLife</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3FD2132B-9D3E-882E-9385-EA16BD2DC070">
+<columnName>TimeStampEnd</columnName>
+<tableName>tbTimeLife</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1E888B83-29BF-80DB-A795-59DA57272473">
+<columnName>LockoutTime</columnName>
+<tableName>tbTimeLife</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8D264F66-BD59-DC1C-6858-7F3F210EDE9A">
+<columnName>Active</columnName>
+<tableName>tbTimeLife</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="13D1CA4C-2EDA-DC4E-EB9B-5E52215632B3">
+<columnName>KEYAPP</columnName>
+<tableName>tbTimeLife</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="2F69621E-72A5-A296-64AB-052251BB3792" name="vwAttemps">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:23:01 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>view_5</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT 
+  KA.[Key],
+  KA.NameApp,
+  AC.Attemp,
+  AC.TimeStampStart,
+  AC.TimeStampLast,
+  AC.IdAttemp
+FROM tbKeyApp KA WITH(NOLOCK)
+JOIN tbAttempsCaptcha AC WITH(NOLOCK) ON KA.[Key] = AC.KeyApp
+WHERE 
+	CAST(AC.TimeStampStart AS DATE)=CAST(GETDATE() AS DATE)]]></userDefinedSQL>
+<parsed>true</parsed>
+<syntaxProvider>MSSQL</syntaxProvider>
+<usedContainers>
+<container alias="KA" containerID="AE6A95C5-07D2-8A2D-7F65-8D027266A217"/>
+<container alias="AC" containerID="BA8A58C8-0B44-C2D6-EA86-E207D834B3B8"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Key" id="010BB188-E947-7A8C-2C26-6EFED227D8D4">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:25:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNIQUEIDENTIFIER</dataType>
+<reference>false</reference>
+<referencedColumn>D1621734-71A9-8811-E27B-B57B5C7F75E8</referencedColumn>
+<table>AE6A95C5-07D2-8A2D-7F65-8D027266A217</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NameApp" id="11927A86-D4A2-4452-A419-6F09472827D9">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:25:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NVARCHAR (50)</dataType>
+<reference>false</reference>
+<referencedColumn>FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8</referencedColumn>
+<table>AE6A95C5-07D2-8A2D-7F65-8D027266A217</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Attemp" id="3BEA20F5-F891-6B77-C961-8E371E4F079A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:25:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>911D4C81-CC39-E055-0667-A9701D4F0F9E</referencedColumn>
+<table>BA8A58C8-0B44-C2D6-EA86-E207D834B3B8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TimeStampStart" id="E60471FC-7BFE-3B61-CCDB-88FA7503EDD4">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:25:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATETIME</dataType>
+<reference>false</reference>
+<referencedColumn>61B7B777-11F0-5022-FBC2-630F9269DF10</referencedColumn>
+<table>BA8A58C8-0B44-C2D6-EA86-E207D834B3B8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TimeStampLast" id="F4CD5F7C-4896-44DC-67D4-7FF43EEBEDB7">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:25:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATETIME</dataType>
+<reference>false</reference>
+<referencedColumn>13841337-7555-EF26-CA47-4387D3AE9827</referencedColumn>
+<table>BA8A58C8-0B44-C2D6-EA86-E207D834B3B8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="IdAttemp" id="71556DD1-2662-1B03-9465-70E07A056FDF">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:25:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNIQUEIDENTIFIER</dataType>
+<reference>false</reference>
+<referencedColumn>E5479719-6815-DA5F-B348-2B89DDA510EC</referencedColumn>
+<table>BA8A58C8-0B44-C2D6-EA86-E207D834B3B8</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AE6A95C5-07D2-8A2D-7F65-8D027266A217">
+<container>true</container>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BA8A58C8-0B44-C2D6-EA86-E207D834B3B8">
+<container>true</container>
+<tableName>tbAttempsCaptcha</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D1621734-71A9-8811-E27B-B57B5C7F75E8">
+<columnName>Key</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8">
+<columnName>NameApp</columnName>
+<tableName>tbKeyApp</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="911D4C81-CC39-E055-0667-A9701D4F0F9E">
+<columnName>Attemp</columnName>
+<tableName>tbAttempsCaptcha</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="61B7B777-11F0-5022-FBC2-630F9269DF10">
+<columnName>TimeStampStart</columnName>
+<tableName>tbAttempsCaptcha</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="13841337-7555-EF26-CA47-4387D3AE9827">
+<columnName>TimeStampLast</columnName>
+<tableName>tbAttempsCaptcha</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E5479719-6815-DA5F-B348-2B89DDA510EC">
+<columnName>IdAttemp</columnName>
+<tableName>tbAttempsCaptcha</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="43D35520-6AED-E191-160B-DBB9905EB6E2">
+<columnName>KeyApp</columnName>
+<tableName>tbAttempsCaptcha</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

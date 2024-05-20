@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D12BDC3-BC5E-B499-0938-8089A4C52C97" containerWithKeyObject="BA8A58C8-0B44-C2D6-EA86-E207D834B3B8" localFKIndex="4E6D3C6C-284D-3980-FCAF-0C70732961DB" name="FK_AttempsCaptcha_KeyApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:09:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<referredTableLongName>tbKeyApp</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE6A95C5-07D2-8A2D-7F65-8D027266A217</referredTableID>
+<keyObject>9C5AA774-DDE9-0F7C-7CA2-067A40A5DB89</keyObject>
+<referredKeyID>9C5AA774-DDE9-0F7C-7CA2-067A40A5DB89</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Key</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

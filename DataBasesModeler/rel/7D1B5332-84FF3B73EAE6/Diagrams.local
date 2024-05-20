@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0D73BE5F-E4CD-AD82-AC5E-4458D5906177" name="CacheCaptcha" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
