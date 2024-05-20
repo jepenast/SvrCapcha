@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Captcha Example</title>
+</head>
+<body>
+    <h1>Captcha Example</h1>
+    <img id="captchaImage" src="" alt="Captcha Image">
+    <br>
+    <label for="captchaInput">Enter the text from the image:</label>
+    <input type="text" id="captchaInput">
+    <button onclick="validateCaptcha()">Submit</button>
+
+    <script>
+        function loadCaptcha() {
+            // Llamar a la API para obtener el CAPTCHA
+            fetch('https://localhost:7180/api/Captcha')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('captchaImage').src = 'data:image/png;base64,' + data.imageBase64;
+                    sessionStorage.setItem('captchaId', data.Id);
+                });
+        }
+
+        function validateCaptcha() {
+            var captchaId = sessionStorage.getItem('captchaId');
+            var answer = document.getElementById('captchaInput').value;
+
+            // Llamar a la API para validar el CAPTCHA
+            fetch('https://localhost:7180/api/ValidateCaptcha', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    Id: captchaId,
+                    Answer: answer
+                })
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Captcha correcto');
+                } else {
+                    alert('Captcha incorrecto');
+                }
+                // Cargar un nuevo CAPTCHA después de la validación
+                loadCaptcha();
+            });
+        }
+
+        // Cargar el CAPTCHA al cargar la página
+        loadCaptcha();
+    </script>
+</body>
+</html>

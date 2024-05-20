@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "CvguN0cDIiN/JdvHZpFhVt2apSIYyWj3AGXvOQ+kBZU=",
+  "Source": "Sovys_Captcha",
+  "BasePath": "_content/Sovys_Captcha",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Sovys_Captcha\\wwwroot",
+      "Source": "Sovys_Captcha",
+      "ContentRoot": "D:\\Proyectos\\Propios\\Sovys_Captcha\\Sovys_Captcha\\wwwroot\\",
+      "BasePath": "_content/Sovys_Captcha",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Proyectos\\Propios\\Sovys_Captcha\\Sovys_Captcha\\wwwroot\\Test.html",
+      "SourceId": "Sovys_Captcha",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Proyectos\\Propios\\Sovys_Captcha\\Sovys_Captcha\\wwwroot\\",
+      "BasePath": "_content/Sovys_Captcha",
+      "RelativePath": "Test.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Test.html"
+    }
+  ]
+}

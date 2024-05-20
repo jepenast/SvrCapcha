@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F32CAA95-2352-137C-F6DA-78EC0381FB11" name="tbErrorLog">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:41:47 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdLogError" id="DCA8F72F-C279-AF32-0F66-7C840BF8C91C">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proccess" id="B0E707C0-5C7E-7DC8-626F-CBBC1BAC0415">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateLog" id="11C4B5E3-9C20-FFE8-710F-343EDD0660D2">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ErrNumber" id="DE429913-AB1A-2C5B-33BD-6AE83570C241">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ErrMessage" id="9B04476E-70B1-C354-C41D-FF4CE5A0A643">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:45:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ErrLine" id="E0001E64-BB8B-81BD-F990-9456C64E54ED">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:46:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ErrSeverity" id="79241B87-3E75-C6FA-E737-D784A049CB3D">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:46:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ErrState" id="4CC6054D-7455-4CFC-CA12-1D7694FDFBC2">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:46:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22E876C5-14D8-34C2-1CB4-F362394327EA" name="PK_ErrorLog">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:48:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA8F72F-C279-AF32-0F66-7C840BF8C91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFEFB620-22C7-7598-E7E0-908FA68E64B6" name="idx_ErrorLog">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:48:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11C4B5E3-9C20-FFE8-710F-343EDD0660D2" sortOrder="DESC"/>
+<colUsage columnID="B0E707C0-5C7E-7DC8-626F-CBBC1BAC0415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableViewProxySqlServerv2k5" name="vwCaptcha" directorySegmentName="seg_0" id="DD4A9E70-EC7C-194E-1BD3-53C53572190D">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:18:30 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<dataBase>DB_NULLELEMENT</dataBase>
+</TableViewProxySqlServerv2k5>

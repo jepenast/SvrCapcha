@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\Documentation.html",
+      "PackagePath": "staticwebassets\\Documentation.html"
+    },
+    {
+      "Id": "D:\\Proyectos\\Propios\\Sovys_Captcha\\SvrCaptcha\\wwwroot\\SvrCaptcha.js",
+      "PackagePath": "staticwebassets\\SvrCaptcha.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SvrCaptcha.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SvrCaptcha.props",
+      "PackagePath": "build\\SvrCaptcha.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SvrCaptcha.props",
+      "PackagePath": "buildMultiTargeting\\SvrCaptcha.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SvrCaptcha.props",
+      "PackagePath": "buildTransitive\\SvrCaptcha.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="tbCaptcha" directorySegmentName="seg_0" id="CA3791C7-2B11-0287-D1FF-4D1A5A3C08DB">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Image" id="50B3C375-36B9-E18E-3CA5-831D47456510">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TimeStamp" id="72DB3CAA-AC0F-0900-3B15-DEC15FCD27F6">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="KeyApp" id="9815E930-E9D4-F5F1-4AAB-BBB0226CD6FF">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="IdCapcha" id="B0186925-58DC-E9D8-F194-443C19A69E1F">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<computed>true</computed>
+<formula>UNIQUEIDENTIFIER DEFAULT NEWID() NOT NULL</formula>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.IndexProxySqlServerv2k12" name="idx_Capcha" id="26BA08C0-1757-765E-943C-07F5D1615130">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<recomputeStatistics>ON</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="FK_Capcha_KeyApp" id="20960C8E-A813-623C-B813-7118E1498B8A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:33:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="PK_Capcha" id="6A5F3A94-6413-5552-4F24-81A880216460">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

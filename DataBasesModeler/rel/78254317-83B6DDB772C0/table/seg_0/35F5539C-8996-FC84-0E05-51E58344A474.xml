@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35F5539C-8996-FC84-0E05-51E58344A474" name="tbTimeLife">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:37:21 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReg" id="90494A22-5C10-55E2-83D8-DD85E19D4E2B">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<formulaDesc>UNIQUEIDENTIFIER DEFAULT NEWSEQUENTIALID() NOT NULL</formulaDesc>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<computed>true</computed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEYAPP" id="13D1CA4C-2EDA-DC4E-EB9B-5E52215632B3">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F0BE1C-B1E7-5123-097A-41DB9DF64F84" referredColumn="D1621734-71A9-8811-E27B-B57B5C7F75E8"/>
+</associations>
+</Column>
+<Column name="TimeStampInit" id="59AD6E1C-9526-A560-0271-E7207E5CE1A9">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TimeStampEnd" id="3FD2132B-9D3E-882E-9385-EA16BD2DC070">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LockoutTime" id="1E888B83-29BF-80DB-A795-59DA57272473">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:07:14 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Active" id="8D264F66-BD59-DC1C-6858-7F3F210EDE9A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B791B63-AFAD-D6AC-72DF-316915AD5B1E" name="PK_TimeLife">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90494A22-5C10-55E2-83D8-DD85E19D4E2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9962A7E6-D6A9-EF0C-B0D0-B66A8592F19E" name="idx_TimeLife">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:40:35 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D1CA4C-2EDA-DC4E-EB9B-5E52215632B3"/>
+<colUsage columnID="59AD6E1C-9526-A560-0271-E7207E5CE1A9"/>
+<colUsage columnID="3FD2132B-9D3E-882E-9385-EA16BD2DC070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE2065E6-7F13-CEB5-5C72-7A6F8E24CE39" name="FK_TimeLife_KeyApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:55 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D1CA4C-2EDA-DC4E-EB9B-5E52215632B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

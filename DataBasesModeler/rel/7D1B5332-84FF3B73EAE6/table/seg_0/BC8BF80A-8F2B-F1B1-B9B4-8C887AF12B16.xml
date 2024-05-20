@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC8BF80A-8F2B-F1B1-B9B4-8C887AF12B16" name="tbCacheAnwer">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-14 15:51:27 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="9C460DE8-E3B8-B95A-A09D-873EC55B595A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-14 15:53:10 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Answer" id="35ECCDF7-08DB-C926-318B-2EFB100C127C">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-14 15:53:10 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CCFA057-973F-0AE2-56A1-122713F07323" name="PK_CacheAnwer">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-14 15:53:10 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C460DE8-E3B8-B95A-A09D-873EC55B595A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF23759-DAA5-16C3-45D2-748C3ED5CB44" name="idx_CacheAnwer">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-14 15:53:29 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C460DE8-E3B8-B95A-A09D-873EC55B595A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

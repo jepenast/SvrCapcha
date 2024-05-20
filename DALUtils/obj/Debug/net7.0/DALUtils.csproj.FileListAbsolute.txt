@@ -1,0 +1,14 @@
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\bin\Debug\net7.0\DALUtils.deps.json
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\bin\Debug\net7.0\DALUtils.dll
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\bin\Debug\net7.0\DALUtils.pdb
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.csproj.AssemblyReference.cache
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.Error.resources
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.csproj.GenerateResource.cache
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.AssemblyInfoInputs.cache
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.AssemblyInfo.cs
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.csproj.CoreCompileInputs.cache
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.dll
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\refint\DALUtils.dll
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\DALUtils.pdb
+D:\Proyectos\Propios\Sovys_Captcha\DALUtils\obj\Debug\net7.0\ref\DALUtils.dll

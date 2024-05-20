@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="BC8BF80A-8F2B-F1B1-B9B4-8C887AF12B16" name="tbCacheAnwer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="71628114-2D42-7637-E117-6A1FB4D8FA6C" name="tbCacheApp" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="0340B2DF-25E6-2620-CAF4-E6845C9D1AF2" name="tbCacheBlock" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7D1B5332-C96A-7B01-0988-84FF3B73EAE6" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

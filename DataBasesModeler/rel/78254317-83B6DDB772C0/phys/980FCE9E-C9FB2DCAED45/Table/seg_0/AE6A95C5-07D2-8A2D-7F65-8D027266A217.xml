@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="tbKeyApp" directorySegmentName="seg_0" id="AE6A95C5-07D2-8A2D-7F65-8D027266A217">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Owner" id="39785B5C-E6AD-84D8-F075-392A09B64FFA">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Value" id="3FA65C85-89C4-411B-C498-E29F989BE200">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="URLAPP" id="B355B6A0-A8FE-18BA-E308-9EB4F5BD5E7A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Key" id="D1621734-71A9-8811-E27B-B57B5C7F75E8">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<computed>true</computed>
+<formula>UNIQUEIDENTIFIER DEFAULT NEWID() NOT NULL</formula>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TypeApp" id="EACCAF31-0FE8-91CC-0673-91FF38F1E6F3">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="NameApp" id="FDBE7B64-45E0-50D7-AEC4-FB7AFDD21EA8">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="FK_KeyApp_Owner" id="3AB5FF2E-7DCB-53BA-30BE-E70B568241C6">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:36:53 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="FK_KeyApp_TypeValue" id="A5532D52-A3EA-21CD-BBDE-3B1DD6A79E9C">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:31:59 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="tbKeyApp_PK" id="9C5AA774-DDE9-0F7C-7CA2-067A40A5DB89">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:32:57 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

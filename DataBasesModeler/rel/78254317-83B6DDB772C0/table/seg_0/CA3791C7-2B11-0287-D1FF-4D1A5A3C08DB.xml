@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3791C7-2B11-0287-D1FF-4D1A5A3C08DB" name="tbCaptcha">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:10:58 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<adequatelyNormalized>YES</adequatelyNormalized>
+<normalForm>Fourth</normalForm>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCapcha" id="B0186925-58DC-E9D8-F194-443C19A69E1F">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:13:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KeyApp" id="9815E930-E9D4-F5F1-4AAB-BBB0226CD6FF">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:13:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515D47D0-CADA-365A-7777-B8495609F733" referredColumn="D1621734-71A9-8811-E27B-B57B5C7F75E8"/>
+</associations>
+</Column>
+<Column name="Image" id="50B3C375-36B9-E18E-3CA5-831D47456510">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:13:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>MAX CHAR</dataTypeSize>
+<ownDataTypeParameters>MAX CHAR,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateGenerate" id="72DB3CAA-AC0F-0900-3B15-DEC15FCD27F6">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:13:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Answer" id="6E3B21FE-FD47-37A2-A37C-2379CFAB0E74">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-05 13:56:51 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Result" id="E3CFC94A-806B-B212-2B84-D919CA040510">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-05 13:56:51 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateAnswer" id="1F2F88B8-B131-02EA-8CE1-9A5AF0D9D803">
+<createdBy>JEP</createdBy>
+<createdTime>2024-05-05 13:56:51 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A5F3A94-6413-5552-4F24-81A880216460" name="PK_Capcha">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:13:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0186925-58DC-E9D8-F194-443C19A69E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26BA08C0-1757-765E-943C-07F5D1615130" name="idx_Capcha">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:13:28 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72DB3CAA-AC0F-0900-3B15-DEC15FCD27F6" sortOrder="DESC"/>
+<colUsage columnID="9815E930-E9D4-F5F1-4AAB-BBB0226CD6FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20960C8E-A813-623C-B813-7118E1498B8A" name="FK_Capcha_KeyApp">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:33:00 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9815E930-E9D4-F5F1-4AAB-BBB0226CD6FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

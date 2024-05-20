@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="C72C7DE1-D085-FF25-1014-AB1493C28D93" name="SvrCapcha" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

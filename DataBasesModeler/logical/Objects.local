@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="FA86F231-E809-9729-0600-0AC2503645DD" name="tbCacheApp" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4DC8C827-3170-CA8A-5E5C-0DCB8E671BC6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FCE4CDE4-3132-75AC-993F-A54324CE2320" name="tbCacheCaptcha" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4DC8C827-3170-CA8A-5E5C-0DCB8E671BC6" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

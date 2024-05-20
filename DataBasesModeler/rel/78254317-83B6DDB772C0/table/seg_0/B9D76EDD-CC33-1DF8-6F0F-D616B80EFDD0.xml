@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9D76EDD-CC33-1DF8-6F0F-D616B80EFDD0" name="tbOwner">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:34:22 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdOwner" id="6D342AFD-FB7C-C24E-D724-C1F1FB0E12E9">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:36:29 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<formulaDesc>UNIQUEIDENTIFIER DEFAULT NEWID() NOT NULL</formulaDesc>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<computed>true</computed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Idregister" id="D66FBC27-3E3A-4189-4F92-D481A7B21641">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:36:29 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="97025B44-EE67-F737-97DA-D8F3A7B21C36">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:36:29 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmailContact" id="7C47C212-C6FA-206F-63D6-78B18A4BC52A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:36:29 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB879D07-B222-6969-5CF7-98DA3DE04DFE" name="PK_Owner">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:36:29 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D342AFD-FB7C-C24E-D724-C1F1FB0E12E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E253255-E9F5-7FA8-7655-1028C44B8C35" name="idx_Owner">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:56:43 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D66FBC27-3E3A-4189-4F92-D481A7B21641"/>
+<colUsage columnID="97025B44-EE67-F737-97DA-D8F3A7B21C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

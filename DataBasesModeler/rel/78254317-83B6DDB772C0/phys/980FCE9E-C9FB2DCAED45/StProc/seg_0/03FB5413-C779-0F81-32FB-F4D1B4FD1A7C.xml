@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.StoredProcedureSqlServerv2k5" name="spRegisterApp" directorySegmentName="seg_0" id="03FB5413-C779-0F81-32FB-F4D1B4FD1A7C">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-15 11:17:19 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<body><![CDATA[CREATE OR ALTER PROCEDURE spRegisterApp
+	@NameApp NVARCHAR(50),
+	@Value NVARCHAR(100),
+	@TypeApp INT,
+	@URL NVARCHAR(255),
+	@IdRegisterOwner NVARCHAR(50),
+	@NameOwner NVARCHAR(100),
+	@EmailContact NVARCHAR(150),
+	@LockAppTime INT,
+	@KEYAPP UNIQUEIDENTIFIER OUTPUT
+AS
+BEGIN
+	SET NOCOUNT ON;
+	SET ANSI_NULLS ON;
+	SET QUOTED_IDENTIFIER ON;
+	BEGIN TRY
+		DECLARE @DataValue VARCHAR(2000)=@NameApp+'|'+@Value+'|'+@TypeApp+'|'+@URL+'|'+@IdRegisterOwner+'|'+@NameOwner+'|'+@EmailContact+'|'+@LockAppTime
+		--Validar que los datos no sean nulos o que que no hay inyeccion de datos
+		IF (dbo.fnCheckNulls(@DataValue)='false' OR dbo.fnCheckInjection(@DataValue)='false')
+		BEGIN
+			BEGIN TRAN RegisterApp
+			--Verificar que la aplicacion no existe ya
+			IF ((SELECT [Key] FROM tbKeyApp WHERE NameApp=@NameApp AND Value=@Value AND URLAPP=@URL) IS NULL) 
+			BEGIN
+				--Guardar el owner
+				MERGE tbOwner AS TARGET
+				USING (
+					SELECT
+							CAST(@IdRegisterOwner AS UNIQUEIDENTIFIER) as IdReg,
+							@NameOwner as NameOwner,
+							@EmailContact as Email
+				) AS SOURCE
+				ON
+					TARGET.Idregister=SOURCE.IdReg
+				WHEN NOT MATCHED THEN
+					INSERT (Idregister,Name,EmailContact)
+					VALUES (SOURCE.IdReg,SOURCE.NameOwner,SOURCE.Email);
+				----------------
+				DECLARE @IdOwner UNIQUEIDENTIFIER=(SELECT IdOwner FROM tbOwner WHERE IdRegister=@IdRegisterOwner)
+				----------------
+				--Guardar la aplicacion
+				MERGE tbKeyApp AS TARGET
+				USING (
+					SELECT
+						@NameApp as NameApp,
+						@Value as ValueApp,
+						@TypeApp as TypeApp,
+						@URL as URLAPP
+				) AS  SOURCE
+				ON
+					TARGET.NameApp=SOURCE.NameApp
+				AND	TARGET.[Owner]=@IdOwner
+				AND TARGET.TypeApp=SOURCE.TypeApp
+				WHEN MATCHED THEN
+					UPDATE SET
+						TARGET.[Value]=SOURCE.ValueApp,
+						TARGET.URLAPP=SOURCE.URLAPP
+				WHEN NOT MATCHED THEN
+					INSERT (NameApp,Value,Owner,TypeApp,URLAPP)
+					VALUES(SOURCE.NameApp,SOURCE.ValueApp,@IdOwner,SOURCE.TypeApp,SOURCE.URLAPP);
+				----------
+				SET @KEYAPP=(SELECT [Key] FROM tbKeyApp WHERE NameApp=@NameApp AND [Value]=@Value)
+				----------
+				MERGE tbTimeLife AS TARGET
+				USING (
+					SELECT
+						@KEYAPP as KEYAPP,
+						@LockAppTime as TimeApp
+				) AS SOURCE
+				ON
+					TARGET.KEYAPP=SOURCE.KEYAPP
+				WHEN NOT MATCHED THEN
+					INSERT (KEYAPP,TimeStampInit,TimeStampEnd,LockoutTime,Active)
+					VALUES(SOURCE.KEYAPP,GETDATE(),DATEADD(YEAR,1,GETDATE()),TimeApp,1);
+				SELECT 'Application successfully registered'
+			END
+			ELSE BEGIN
+				SELECT 'The application has already been registered'
+			END
+			COMMIT TRAN RegisterApp;
+		END
+		ELSE
+		BEGIN
+			SELECT 'Some data does not meet security parameters'
+		END
+	END TRY
+	BEGIN CATCH
+		INSERT INTO dbo.tbErrorLog VALUES('spRegisterApp',GETDATE(),ERROR_NUMBER(),ERROR_LINE(),ERROR_LINE(),ERROR_SEVERITY(),ERROR_STATE())
+		SET @KEYAPP='Error logging the application, see log for details'
+		ROLLBACK TRAN RegisterApp;
+		SELECT 'Error when trying to register an application'
+	END CATCH
+END]]></body>
+<database>DB_NULLELEMENT</database>
+</StoredProcedureSqlServerv2k5>

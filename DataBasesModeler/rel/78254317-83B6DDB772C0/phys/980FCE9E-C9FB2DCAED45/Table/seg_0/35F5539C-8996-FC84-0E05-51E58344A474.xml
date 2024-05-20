@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="tbTimeLife" directorySegmentName="seg_0" id="35F5539C-8996-FC84-0E05-51E58344A474">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:37:21 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="KEYAPP" id="13D1CA4C-2EDA-DC4E-EB9B-5E52215632B3">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="LockoutTime" id="1E888B83-29BF-80DB-A795-59DA57272473">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 16:07:14 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TimeStampEnd" id="3FD2132B-9D3E-882E-9385-EA16BD2DC070">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TimeStampInit" id="59AD6E1C-9526-A560-0271-E7207E5CE1A9">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Active" id="8D264F66-BD59-DC1C-6858-7F3F210EDE9A">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="idReg" id="90494A22-5C10-55E2-83D8-DD85E19D4E2B">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<computed>true</computed>
+<formula>UNIQUEIDENTIFIER DEFAULT NEWSEQUENTIALID() NOT NULL</formula>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.IndexProxySqlServerv2k12" name="idx_TimeLife" id="9962A7E6-D6A9-EF0C-B0D0-B66A8592F19E">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:40:35 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<recomputeStatistics>ON</recomputeStatistics>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="FK_TimeLife_KeyApp" id="AE2065E6-7F13-CEB5-5C72-7A6F8E24CE39">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:55 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="PK_TimeLife" id="5B791B63-AFAD-D6AC-72DF-316915AD5B1E">
+<createdBy>JEP</createdBy>
+<createdTime>2024-04-14 15:39:36 UTC</createdTime>
+<ownerDesignName>DataBasesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

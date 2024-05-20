@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="CacheCaptcha" id="0D73BE5F-E4CD-AD82-AC5E-4458D5906177">
+<createdBy>JEP</createdBy>
+<modifiedBy>JEP</modifiedBy>
+<createdTime>2024-04-14 14:50:11 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="0340B2DF-25E6-2620-CAF4-E6845C9D1AF2" otype="Table" vid="7660ECD9-3492-3613-234E-698A96B0A89F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="262" y="57" width="170" height="116"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="71628114-2D42-7637-E117-6A1FB4D8FA6C" otype="Table" vid="6FE99A49-B9D9-24E9-7B58-1E6828F7629D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="265" y="198" width="213" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BC8BF80A-8F2B-F1B1-B9B4-8C887AF12B16" otype="Table" vid="2A33B639-D2CD-0B0E-0883-1A6BC2D4AD00">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="602" y="99" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>
